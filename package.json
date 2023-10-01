@@ -1,0 +1,19 @@
+{
+  "name": "@fromafrica/edge-api",
+  "version": "1.0.0",
+  "description": "the types, helpers & shared logic for fromafri.ca edge api functions",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [],
+  "author": "Sami Fouad - from africa with love",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
