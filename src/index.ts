@@ -1,10 +1,10 @@
 // constants
 export { regionMap } from "./const/regionMap";
-export { corsOptions } from "./const/corsOptions";
 export { corsHeaders } from "./const/corsHeaders";
 
 // functions
 export { hashPassword } from "./function/hashPassword";
+export { readRequestBody } from "./function/readRequestBody";
 
 // interfaces
 export { cookieOptions } from "./interface/cookieOptions";
