@@ -1,6 +1,6 @@
 {
   "name": "@fromafrica/edge-api",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "the types, helpers & shared logic for fromafri.ca edge api functions",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

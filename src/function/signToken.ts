@@ -5,6 +5,7 @@ export async function signToken(user: userJwt, hmac: string, issuer: string, aud
 	const payload = {
 		role: user.role,
 		user: user.username,
+		userId: user.userId
 	};
 
 	const secret = new TextEncoder().encode(hmac)
